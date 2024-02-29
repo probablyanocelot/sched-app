@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+google-cloud = "*"
+requests = "*"
+google-cloud-vision = "*"
+google-auth-oauthlib = "*"
+google-api-python-client = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.2"
